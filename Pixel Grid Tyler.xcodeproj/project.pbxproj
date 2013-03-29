@@ -13,22 +13,34 @@
 		0BBCB2A51705D2060093C9C4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0BBCB2A31705D2060093C9C4 /* Credits.rtf */; };
 		0BBCB2A81705D2060093C9C4 /* LEXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBCB2A71705D2060093C9C4 /* LEXAppDelegate.m */; };
 		0BBCB2AB1705D2060093C9C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BBCB2A91705D2060093C9C4 /* MainMenu.xib */; };
+		0BBCB2B31705D6390093C9C4 /* LEXMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBCB2B21705D6390093C9C4 /* LEXMainWindowController.m */; };
+		0BBCB2B91705DFD20093C9C4 /* LEXGridDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBCB2B81705DFD10093C9C4 /* LEXGridDrawer.m */; };
+		0BBCB2BC1705E8F70093C9C4 /* LEXTiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBCB2BB1705E8F70093C9C4 /* LEXTiledView.m */; };
+		0BBCB2BF170628CD0093C9C4 /* LEXAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBCB2BE170628CD0093C9C4 /* LEXAppSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0BBCB2911705D2060093C9C4 /* PixelGridDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelGridDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBCB2911705D2060093C9C4 /* Pixel Grid Tyler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel Grid Tyler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBCB2941705D2060093C9C4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0BBCB2971705D2060093C9C4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0BBCB2981705D2060093C9C4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0BBCB2991705D2060093C9C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0BBCB29C1705D2060093C9C4 /* PixelGridDrawer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PixelGridDrawer-Info.plist"; sourceTree = "<group>"; };
+		0BBCB29C1705D2060093C9C4 /* Pixel Grid Tyler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pixel Grid Tyler-Info.plist"; sourceTree = "<group>"; };
 		0BBCB29E1705D2060093C9C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0BBCB2A01705D2060093C9C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0BBCB2A21705D2060093C9C4 /* PixelGridDrawer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PixelGridDrawer-Prefix.pch"; sourceTree = "<group>"; };
+		0BBCB2A21705D2060093C9C4 /* Pixel Grid Tyler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pixel Grid Tyler-Prefix.pch"; sourceTree = "<group>"; };
 		0BBCB2A41705D2060093C9C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		0BBCB2A61705D2060093C9C4 /* LEXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEXAppDelegate.h; sourceTree = "<group>"; };
 		0BBCB2A71705D2060093C9C4 /* LEXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEXAppDelegate.m; sourceTree = "<group>"; };
 		0BBCB2AA1705D2060093C9C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0BBCB2B11705D6390093C9C4 /* LEXMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEXMainWindowController.h; sourceTree = "<group>"; };
+		0BBCB2B21705D6390093C9C4 /* LEXMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEXMainWindowController.m; sourceTree = "<group>"; };
+		0BBCB2B71705DFD10093C9C4 /* LEXGridDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEXGridDrawer.h; sourceTree = "<group>"; };
+		0BBCB2B81705DFD10093C9C4 /* LEXGridDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEXGridDrawer.m; sourceTree = "<group>"; };
+		0BBCB2BA1705E8F70093C9C4 /* LEXTiledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEXTiledView.h; sourceTree = "<group>"; };
+		0BBCB2BB1705E8F70093C9C4 /* LEXTiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEXTiledView.m; sourceTree = "<group>"; };
+		0BBCB2BD170628CD0093C9C4 /* LEXAppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEXAppSettings.h; sourceTree = "<group>"; };
+		0BBCB2BE170628CD0093C9C4 /* LEXAppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEXAppSettings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,7 @@
 		0BBCB2921705D2060093C9C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BBCB2911705D2060093C9C4 /* PixelGridDrawer.app */,
+				0BBCB2911705D2060093C9C4 /* Pixel Grid Tyler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +96,14 @@
 			children = (
 				0BBCB2A61705D2060093C9C4 /* LEXAppDelegate.h */,
 				0BBCB2A71705D2060093C9C4 /* LEXAppDelegate.m */,
+				0BBCB2BD170628CD0093C9C4 /* LEXAppSettings.h */,
+				0BBCB2BE170628CD0093C9C4 /* LEXAppSettings.m */,
+				0BBCB2B11705D6390093C9C4 /* LEXMainWindowController.h */,
+				0BBCB2B21705D6390093C9C4 /* LEXMainWindowController.m */,
+				0BBCB2BA1705E8F70093C9C4 /* LEXTiledView.h */,
+				0BBCB2BB1705E8F70093C9C4 /* LEXTiledView.m */,
+				0BBCB2B71705DFD10093C9C4 /* LEXGridDrawer.h */,
+				0BBCB2B81705DFD10093C9C4 /* LEXGridDrawer.m */,
 				0BBCB2A91705D2060093C9C4 /* MainMenu.xib */,
 				0BBCB29B1705D2060093C9C4 /* Supporting Files */,
 			);
@@ -93,10 +113,10 @@
 		0BBCB29B1705D2060093C9C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0BBCB29C1705D2060093C9C4 /* PixelGridDrawer-Info.plist */,
+				0BBCB29C1705D2060093C9C4 /* Pixel Grid Tyler-Info.plist */,
 				0BBCB29D1705D2060093C9C4 /* InfoPlist.strings */,
 				0BBCB2A01705D2060093C9C4 /* main.m */,
-				0BBCB2A21705D2060093C9C4 /* PixelGridDrawer-Prefix.pch */,
+				0BBCB2A21705D2060093C9C4 /* Pixel Grid Tyler-Prefix.pch */,
 				0BBCB2A31705D2060093C9C4 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -105,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BBCB2901705D2060093C9C4 /* PixelGridDrawer */ = {
+		0BBCB2901705D2060093C9C4 /* Pixel Grid Tyler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BBCB2AE1705D2060093C9C4 /* Build configuration list for PBXNativeTarget "PixelGridDrawer" */;
+			buildConfigurationList = 0BBCB2AE1705D2060093C9C4 /* Build configuration list for PBXNativeTarget "Pixel Grid Tyler" */;
 			buildPhases = (
 				0BBCB28D1705D2060093C9C4 /* Sources */,
 				0BBCB28E1705D2060093C9C4 /* Frameworks */,
@@ -117,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = PixelGridDrawer;
+			name = "Pixel Grid Tyler";
 			productName = PixelGridDrawer;
-			productReference = 0BBCB2911705D2060093C9C4 /* PixelGridDrawer.app */;
+			productReference = 0BBCB2911705D2060093C9C4 /* Pixel Grid Tyler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +152,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = iTech;
 			};
-			buildConfigurationList = 0BBCB28C1705D2060093C9C4 /* Build configuration list for PBXProject "PixelGridDrawer" */;
+			buildConfigurationList = 0BBCB28C1705D2060093C9C4 /* Build configuration list for PBXProject "Pixel Grid Tyler" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -144,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BBCB2901705D2060093C9C4 /* PixelGridDrawer */,
+				0BBCB2901705D2060093C9C4 /* Pixel Grid Tyler */,
 			);
 		};
 /* End PBXProject section */
@@ -169,6 +189,10 @@
 			files = (
 				0BBCB2A11705D2060093C9C4 /* main.m in Sources */,
 				0BBCB2A81705D2060093C9C4 /* LEXAppDelegate.m in Sources */,
+				0BBCB2B31705D6390093C9C4 /* LEXMainWindowController.m in Sources */,
+				0BBCB2B91705DFD20093C9C4 /* LEXGridDrawer.m in Sources */,
+				0BBCB2BC1705E8F70093C9C4 /* LEXTiledView.m in Sources */,
+				0BBCB2BF170628CD0093C9C4 /* LEXAppSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +255,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -257,6 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -266,9 +292,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PixelGridDrawer/PixelGridDrawer-Prefix.pch";
-				INFOPLIST_FILE = "PixelGridDrawer/PixelGridDrawer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PixelGridDrawer/Pixel Grid Tyler-Prefix.pch";
+				INFOPLIST_FILE = "PixelGridDrawer/Pixel Grid Tyler-Info.plist";
+				PRODUCT_NAME = "Pixel Grid Tyler";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -278,9 +304,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PixelGridDrawer/PixelGridDrawer-Prefix.pch";
-				INFOPLIST_FILE = "PixelGridDrawer/PixelGridDrawer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PixelGridDrawer/Pixel Grid Tyler-Prefix.pch";
+				INFOPLIST_FILE = "PixelGridDrawer/Pixel Grid Tyler-Info.plist";
+				PRODUCT_NAME = "Pixel Grid Tyler";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BBCB28C1705D2060093C9C4 /* Build configuration list for PBXProject "PixelGridDrawer" */ = {
+		0BBCB28C1705D2060093C9C4 /* Build configuration list for PBXProject "Pixel Grid Tyler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BBCB2AC1705D2060093C9C4 /* Debug */,
@@ -297,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BBCB2AE1705D2060093C9C4 /* Build configuration list for PBXNativeTarget "PixelGridDrawer" */ = {
+		0BBCB2AE1705D2060093C9C4 /* Build configuration list for PBXNativeTarget "Pixel Grid Tyler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BBCB2AF1705D2060093C9C4 /* Debug */,
